@@ -1,0 +1,62 @@
+import React from 'react'
+import 'font-awesome/css/font-awesome.min.css';
+
+
+
+const HeroSection = () => {
+    return (
+        <div>
+            <div className='flex justify-center flex-col items-center text-center max-w-[60vw] m-auto '>
+                <h1 className=' text-gray-700 text-xl ' >N E W &nbsp;&nbsp; L A U N C H</h1>
+                <p className='m-5 text-5xl font-semibold'>
+                    Learn how to <span className="gradient-text">Pitch</span> and close high-ticket Social Media Clients from the <span className="gradient-text">Founder of an Award-Winning Agency.</span>
+                </p>
+
+                <p className='text-gray-500 text-lg'>
+                    In this online course, get the <strong>Insider tips & tricks </strong> that have helped Top agency professionals, strategists & freelancers close <strong> high-paying, dream clients </strong>  - even if you have never pitched before.
+                </p>
+
+                <button className=' mt-5 mb-1 font-semibold text-white bg-[#ff206e] py-3 px-6 rounded-xl flex items-center hover:invert hover:bg-black hover:border-white hover:border transition-all duration-500 ease-in-out  '>
+                    <img width={20} src="/images/circel.svg" alt="" /> &nbsp;
+                    GET INSTANT ACCESS AT JUST ₹999&nbsp; <span className='text-xs line-through'>3000</span>
+                </button>
+                <p className='text-gray-500'>GST applicable.</p>
+            </div>
+
+
+            <div className='flex gap-10 justify-center m-10' >
+                <div className='border-2 rounded-lg p-5 w-[25vw] flex flex-col justify-center items-center text-center shadow-lg shadow-gray-400 '>
+                    <div className='max-w-[250px]'>
+                        <span className="px-8 py-1 bg-gradient-to-r from-[#C81151] to-[#5A54A8] text-white rounded-md">
+                            Your Mentor
+                        </span>
+                        <img className='mt-3' width={240} src="/images/mentor.png" alt="" />
+                        <p className='font-semibold text-2xl'>OMKAR JOSHI</p>
+                        <p className='text-sm'>Founder & CCO at Hybrid&gt;</p>
+                        <p className='text-sm'>Ex-Business Head & ECD at Schbang</p>
+                        <div className='flex justify-center mt-5'>
+                            <img width={100} src="images/hybrid.png" alt="" />
+                            <img width={100} src="images/schbang.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+
+                <div className='border-2 rounded-lg p-3 w-[30vw] flex flex-col text-center shadow-lg shadow-gray-400 '>
+                    <div>
+                        <img className='object-fit rounded-xl border-2' src="/images/strategy.png" alt="" />
+
+                        <div className='flex flex-col text-start mt-5 gap-5'>
+                            <p className='flex items-center gap-2  border-2 text-gray-600 rounded-lg px-6 py-3 text-lg' >
+                                <img src="/images/arrow.svg" alt="" /> End-to-End. No Upsells.</p>
+                            <p className=' flex items-center gap-2 border-2 text-lg text-gray-600 rounded-lg px-6 py-3' >
+                                <img src="/images/infinite.svg" alt="" /> Lifetime access.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    )
+}
+
+export default HeroSection

@@ -2,26 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+body{
+  background-color: #fff;;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.gradient-text {
+    background: -webkit-linear-gradient(140deg, #C81151, #5A54A8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
-}
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .slide-in {
+    transform: translateX(0); /* Keep in place */
   }
-}
+  
+  .slide-out {
+    transform: translateX(-100%); /* Slide out to the left */
+  }
+  
+  /* Optional: To handle the slide-in effect from the right */
+  .slide-in-next {
+    transform: translateX(100%); /* Slide in from the right */
+  }
+  
+  .slide-in-prev {
+    transform: translateX(-100%); /* Slide in from the left */
+  }
+  

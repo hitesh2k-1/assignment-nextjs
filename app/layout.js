@@ -13,6 +13,7 @@ import MentorCard from "@/components/MentorCard";
 import CourseBenefits from "@/components/CourseBenifits";
 import Reviews2 from "@/components/Reviews2";
 import Reasons from "@/components/Reasons";
+import FAQComponent from "@/components/FaqComponent";
 
 export const metadata = {
   title: "FrontEnd-Assignment",
@@ -36,6 +37,7 @@ export default function RootLayout({ children }) {
         <CourseBenefits/>
         <Reviews2/>
         <Reasons/>
+        <FAQComponent/>
         <Footer/>
       </body>
     </html>

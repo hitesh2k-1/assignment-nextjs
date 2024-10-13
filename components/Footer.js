@@ -27,14 +27,14 @@ const Footer = () => {
 
         {/* CTA Button */}
         <div className="text-center mt-8">
-          <button className="flex items-center text-lg gap-2 m-auto bg-gradient-to-r from-[#C81151] to-[#5A54A8] text-white px-6 py-3 rounded-lg shadow transition-transform transform hover:-translate-y-1 duration-300">
-            <FontAwesomeIcon icon={faCheckCircle} className="h-4 w-4 text-white" />
-            GET INSTANT ACCESS AT JUST ₹999 <span className="line-through text-xs text-gray-300">₹3999</span>
-          </button>
+                <button className="relative inline-block text-lg sm:text-xl gap-2 m-auto bg-gradient-to-r from-[#C81151] to-[#5A54A8] text-white px-10 py-3 rounded-lg shadow transition-transform transform hover:-translate-y-1 duration-300">
+                    <FontAwesomeIcon icon={faCheckCircle} className="h-5 w-5 absolute top-4 left-3  text-white" />
+                    GET INSTANT ACCESS AT JUST ₹999 <span className="line-through text-xs text-gray-300">₹3999</span>
+                </button>
 
-          <p className="mt-2 text-gray-300">* GST applicable</p>
-          <p className="text-gray-300 pb-10">🎉 Limited Time Launch Price!</p>
-        </div>
+                <p className=" mt-2 text-gray-400">* GST applicable</p>
+                <p className=" text-gray-400">🎉 Limited Time Launch Price!</p>
+            </div>
 
         {/* Sticky Bar */}
         <div className="fixed bottom-0 md:hidden left-0 w-full bg-gradient-to-r from-gray-950 to-indigo-950 text-white py-3 px-8 flex items-center justify-between shadow-lg z-50">

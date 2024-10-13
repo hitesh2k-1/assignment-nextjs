@@ -9,7 +9,7 @@ const MentorCard = () => {
             <div className="text-center mb-10">
                 <h1 className="text-5xl font-semibold text-gray-700">Meet Your Mentor</h1>
                 <p className="mt-4 text-lg text-gray-600 max-w-[50vw] m-auto">
-                    Get into the mind of India&pos;s top social media strategist and steal his secrets that have helped him close marquee brands as Clients.
+                    Get into the mind of India top social media strategist and steal his secrets that have helped him close marquee brands as Clients.
                 </p>
             </div>
 

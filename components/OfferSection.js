@@ -56,7 +56,7 @@ const OfferSection = () => {
                         <Image height={300} width={300} src="/images/laptop.png" alt="" />
                     </span>
                     {/* Pricing */}
-                    <p className="sm:text-7xl text-4xl font-bold gradient-text mb-2">₹999 <span className='line-through text-lg'>₹3999</span> </p>
+                    <p className="sm:text-7xl text-4xl font-bold gradient-text mb-2">₹999 <span className='text-lg line-through'>₹3999</span> </p>
                     <p className="text-gray-500 text-sm mb-6">GST applicable</p>
 
                     {/* Button */}

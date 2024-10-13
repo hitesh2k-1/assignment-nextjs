@@ -53,7 +53,7 @@ const OfferSection = () => {
 
                     {/* Image of the Course */}
                     <span className="border-2 w-[250px] sm:w-[320px] m-auto rounded-2xl border-gray-200 flex justify-center">
-                        <img width={300} src="/images/laptop.png" alt="" />
+                        <Image height={300} width={300} src="/images/laptop.png" alt="" />
                     </span>
                     {/* Pricing */}
                     <p className="text-7xl font-bold gradient-text mb-2">₹999 <span className="line- text-lg ">₹3999</span></p>

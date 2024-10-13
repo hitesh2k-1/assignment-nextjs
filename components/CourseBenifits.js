@@ -9,7 +9,7 @@ const CourseBenefits = () => {
         {/* Left side with image */}
         <div className="lg:w-1/2 mb-10 lg:mb-0">
           <div className="relative w-full h-full ">
-            <img src="/images/computer.png" alt="" />
+            <Image width={600} height={600} src="/images/computer.png" alt="" />
           </div>
         </div>
 
@@ -19,8 +19,8 @@ const CourseBenefits = () => {
           <ul className="space-y-3 ">
             {[
               "Make a well-structured pitch that makes clients trust you as a strong partner",
-              "Address a client's brief and offer solutions without missing out on critical elements",
-              "Conceptualize Big Campaign Ideas to 'wow' the client-side team",
+              "Address a clients brief and offer solutions without missing out on critical elements",
+              "Conceptualize Big Campaign Ideas to wow the client-side team",
               "Grow your career to become a high-paid, ROI-driven agency professional",
               "Start your own Agency or Social Media Freelance career",
               "Increase chances to beat other competing agencies in a multi-agency pitch",

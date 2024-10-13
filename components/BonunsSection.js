@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheckCircle } from '@fortawesome/free-regular-svg-icons';
 
@@ -17,7 +18,7 @@ const BonusSection = () => {
                 {/* Card 1 */}
                 <div class="relative p-6 bg-white border-purple-200 transition duration-500 hover:border-red-500 border-dashed border-2 rounded-2xl shadow-md flex flex-col items-center text-start">
                     <div class="relative h-52 mb-4  -mt-28">
-                        <img src="images/book.png" alt="" class="object-cover h-52  " />
+                        <Image height={200} width={200} src="/images/book.png" alt="" class="object-cover h-52  " />
                     </div>
                     <h3 class="text-4xl font-semibold mb-2 text-gray-700">Agency Pricing Guide (E-Book)</h3>
                     <p class="text-gray-600 mb-2">
@@ -31,7 +32,7 @@ const BonusSection = () => {
                 {/* Card 2 */}
                 <div class="relative p-6 mt-20 md:mt-0 bg-white border-purple-200 transition duration-500 hover:border-red-500 border-dashed border-2 rounded-2xl shadow-md flex flex-col items-center text-start">
                     <div class="relative h-52 mb-4  -mt-28">
-                        <img src="images/calculator.png" alt="" class="object-cover h-52  " />
+                        <Image height={200} width={200} src="/images/calculator.png" alt="" class="object-cover h-52  " />
                     </div>
                     <h3 class="text-4xl font-semibold mb-2 text-gray-700">Retainer Calculator</h3>
                     <p class="text-gray-600 mb-2">

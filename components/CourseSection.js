@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const beneficiaries = [
@@ -24,7 +25,7 @@ const CourseSection = () => {
               index === beneficiaries.length - 1 ? 'col-span-2' : ''
             }`}
           >
-            <span className="text-pink-500 text-xl mr-3"><img src="/images/profile.svg" alt="" /></span>
+            <span className="text-pink-500 text-xl mr-3"><Image height={20} width={20} src="/images/profile.svg" alt="" /></span>
             <span className="text-lg font-medium">{benefit}</span>
           </div>
         ))}

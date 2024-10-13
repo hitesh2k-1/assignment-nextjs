@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGem , faAddressCard ,  faCheckCircle , faFileVideo  } from '@fortawesome/free-regular-svg-icons'; 
 import { faArrowsAltH , faInfinity } from '@fortawesome/free-solid-svg-icons'; 
+import Image from 'next/image';
 
 const WhyJoinCourse = () => {
   return (
@@ -57,7 +58,7 @@ const WhyJoinCourse = () => {
           </div>
           <div>
           <h3>Learn directly from  
-  <span className="font-bold"> India's Top Strategist</span> 
+  <span className="font-bold"> India&pos;s Top Strategist</span> 
 </h3>
           </div>
         </div>
@@ -75,7 +76,7 @@ const WhyJoinCourse = () => {
 
     <div className="py-16 max-w-[90vw] lg:max-w-[45vw] m-auto  bg-gray-50 flex justify-center flex-col ">
       <h2 className="text-5xl font-semibold text-center text-gray-700 mb-12">Our learners work here:</h2>
-      <img className='border-2 rounded-3xl'  src="/images/multiplelogo.png" alt="" />
+      <Image width={800} height={800} className='border-2 rounded-3xl'  src="/images/multiplelogo.png" alt="" />
       </div>
     </div>
   );

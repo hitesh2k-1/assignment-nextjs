@@ -1,5 +1,6 @@
 import React from 'react'
 import 'font-awesome/css/font-awesome.min.css';
+import Image from 'next/image';
 
 
 
@@ -13,11 +14,11 @@ const HeroSection = () => {
                 </p>
 
                 <p className='text-gray-500 md:text-lg max-w-[80vw] '>
-                    In this online course, get the <strong>Insider tips & tricks </strong> that have helped Top agency professionals, strategists & freelancers close <strong> high-paying, dream clients </strong>  - even if you have never pitched before.
+                    In this online courses get the <strong>Insider tips & tricks </strong> that have helped Top agency professionals, strategists & freelancers close <strong> high-paying, dream clients </strong>  - even if you have never pitched before.
                 </p>
 
                 <button className=' mt-5 mb-1 font-semibold text-white bg-[#ff206e] py-3 px-6 rounded-xl flex items-center hover:invert hover:bg-black hover:border-white hover:border transition-all duration-500 ease-in-out  '>
-                    <img width={20} src="/images/circel.svg" alt="" /> &nbsp;
+                    <Image width={20} height={20} src="/images/circel.svg" alt="" /> &nbsp;
                     GET INSTANT ACCESS AT JUST ₹999&nbsp; <span className='text-xs line-through'>3000</span>
                 </button>
                 <p className='text-gray-500'>GST applicable.</p>
@@ -30,26 +31,26 @@ const HeroSection = () => {
                         <span className="px-8 py-1 bg-gradient-to-r from-[#C81151] to-[#5A54A8] text-white rounded-md">
                             Your Mentor
                         </span>
-                        <img className='mt-3' width={240} src="/images/mentor.png" alt="" />
+                        <Image className='mt-3' height={240} width={240} src="/images/mentor.png" alt="" />
                         <p className='font-semibold text-2xl'>OMKAR JOSHI</p>
                         <p className='text-sm'>Founder & CCO at Hybrid&gt;</p>
                         <p className='text-sm'>Ex-Business Head & ECD at Schbang</p>
                         <div className='flex justify-center mt-5'>
-                            <img width={100} src="images/hybrid.png" alt="" />
-                            <img width={100} src="images/schbang.png" alt="" />
+                            <Image height={100} width={100} src="/images/hybrid.png" alt="" />
+                            <Image height={100} width={100} src="/images/schbang.png" alt="" />
                         </div>
                     </div>
                 </div>
 
                 <div className='border-2 mx-10 md:mx-0 rounded-lg p-3 md:min-w-1/2  md:w-1/2 flex flex-col text-center shadow-lg shadow-gray-400 '>
                     <div>
-                        <img className='object-fit rounded-xl border-2' src="/images/strategy.png" alt="" />
+                        <Image height={600} width={600} className='object-fit rounded-xl border-2' src="/images/strategy.png" alt="" />
 
                         <div className='flex flex-col text-start mt-5 gap-5'>
                             <p className='flex items-center gap-2  border-2 text-gray-600 rounded-lg px-6 py-3 text-lg' >
-                                <img src="/images/arrow.svg" alt="" /> End-to-End. No Upsells.</p>
+                                <Image height={20} width={20} src="/images/arrow.svg" alt="" /> End-to-End. No Upsells.</p>
                             <p className=' flex items-center gap-2 border-2 text-lg text-gray-600 rounded-lg px-6 py-3' >
-                                <img src="/images/infinite.svg" alt="" /> Lifetime access.</p>
+                                <Image height={20} width={20} src="/images/infinite.svg" alt="" /> Lifetime access.</p>
                         </div>
                     </div>
                 </div>

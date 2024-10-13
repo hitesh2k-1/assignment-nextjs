@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheckCircle } from '@fortawesome/free-regular-svg-icons';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -14,7 +15,7 @@ const Footer = () => {
           START A CHAT
         </button>
       </div>
-      
+
       {/* Main Section */}
       <div className="flex flex-col items-center justify-center min-h-1/2 pt-20 bg-gradient-to-r from-gray-950 to-indigo-950 text-center p-6">
         {/* Main Text Section */}
@@ -36,7 +37,7 @@ const Footer = () => {
         </div>
 
         {/* Sticky Bar */}
-        <div className="fixed bottom-0 left-0 w-full bg-gradient-to-r from-gray-950 to-indigo-950 text-white py-3 px-8 flex items-center justify-between shadow-lg z-50">
+        <div className="fixed bottom-0 md:hidden left-0 w-full bg-gradient-to-r from-gray-950 to-indigo-950 text-white py-3 px-8 flex items-center justify-between shadow-lg z-50">
           {/* Price Information */}
           <div className="text-left">
             <div className="font-bold text-xl">
@@ -56,7 +57,7 @@ const Footer = () => {
       <div className='bg-black p-5'>
         <ul className='flex flex-col md:flex-row justify-between text-gray-400 max-w-[70vw] m-auto items-center'>
           <li>hello@youngurbanproject.com</li>
-          <li><img className='w-40 md:w-20' src="/images/logo.png" alt="Logo" /></li>
+          <li><Image width={50} height={50} className='w-40 md:w-20' src="/images/logo.png" alt="Logo" /></li>
           <li>WhatsApp: +91 9321999877</li>
         </ul>
         <div className="flex justify-center items-center">

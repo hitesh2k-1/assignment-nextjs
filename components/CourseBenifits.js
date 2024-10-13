@@ -5,11 +5,10 @@ import { faCheckSquare } from '@fortawesome/free-regular-svg-icons';
 const CourseBenefits = () => {
   return (
     <div className="bg-gradient-to-b from-[#5A54A8] to-[#C81151] py-16 ">
-      <div className="h-screen  mx-auto px-4 flex flex-col lg:flex-row max-w-[70vw] items-center">
+      <div className="lg:h-screen  mx-auto px-4 flex flex-col lg:flex-row max-w-[90vw] lg:max-w-[70vw] items-center">
         {/* Left side with image */}
         <div className="lg:w-1/2 mb-10 lg:mb-0">
-          <div className="relative w-full h-80 lg:h-[30rem]">
-            {/* Add your image path here */}
+          <div className="relative w-full h-full ">
             <img src="/images/computer.png" alt="" />
           </div>
         </div>

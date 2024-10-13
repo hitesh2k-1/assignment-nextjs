@@ -5,7 +5,7 @@ import { faCheckCircle } from '@fortawesome/free-regular-svg-icons';
 
 const BonusSection = () => {
     return (
-        <div className="max-w-[70vw] mx-auto p-6 my-10 ">
+        <div className="lg:max-w-[70vw] md:max-w-[90vw] mx-auto p-6 my-10 ">
             <h2 className="text-center max-w-[60vw] m-auto gradient-text text-5xl font-semibold mb-2">
                 Enroll today & Get Premium Bonuses worth ₹20,000
             </h2>
@@ -29,7 +29,7 @@ const BonusSection = () => {
 
 
                 {/* Card 2 */}
-                <div class="relative p-6  bg-white border-purple-200 transition duration-500 hover:border-red-500 border-dashed border-2 rounded-2xl shadow-md flex flex-col items-center text-start">
+                <div class="relative p-6 mt-20 md:mt-0 bg-white border-purple-200 transition duration-500 hover:border-red-500 border-dashed border-2 rounded-2xl shadow-md flex flex-col items-center text-start">
                     <div class="relative h-52 mb-4  -mt-28">
                         <img src="images/calculator.png" alt="" class="object-cover h-52  " />
                     </div>

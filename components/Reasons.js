@@ -10,7 +10,7 @@ const Reasons = () => {
     return (
         <div>
             <div className="flex justify-center px-4 mt-40 ">
-                <div className="lg:w-1/2">
+                <div className=" max-w-[90vw] lg:w-3/5">
                     <h2 className="text-5xl  text-center text-gray-700 font-semibold mb-6 my-15">This course is for you if:</h2>
                     <ul className="space-y-3 ">
                         {[
@@ -33,7 +33,7 @@ const Reasons = () => {
             </div>
 
             <div className="flex justify-center px-4 mt-40 ">
-                <div className="w-[60vw]">
+                <div className=" max-w-[90vw] lg:w-3/5">
                     <h2 className="text-5xl  text-center text-gray-700 font-bold mb-6 my-15">Frequently Asked Questions</h2>
                     <ul className="space-y-3 text-lg font-semibold  ">
                         {[

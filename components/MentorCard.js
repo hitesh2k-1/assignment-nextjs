@@ -13,9 +13,9 @@ const MentorCard = () => {
             </div>
 
             {/* Mentor Card */}
-            <div className="max-w-[70vw] mx-auto bg-white  p-10 flex flex-col gap-10 md:flex-row items-center md:items-start">
+            <div className=" max-w-[90vw] lg:max-w-[70vw] mx-auto bg-white  p-10 flex flex-col lg:gap-10 md:flex-row items-center md:items-start">
                 {/* Left Side: Profile and Brands */}
-                <div className='border-2 p-4 rounded-lg  w-[25vw] flex flex-col justify-center items-center text-center shadow-lg shadow-gray-400 '>
+                <div className='border-2 p-4 rounded-lg  min-w-[25vw] flex flex-col justify-center items-center text-center shadow-lg shadow-gray-400 '>
                     <div className='max-w-[300px]'>
                         <img className='m-auto ' width={240} src="/images/mentor.png" alt="" />
                         <p className='text-gray-700'>----------Worked with brands like----------</p>
@@ -25,20 +25,20 @@ const MentorCard = () => {
                 </div>
 
                 {/* Right Side: Mentor Info */}
-                <div className="md:w-2/3 md:ml-12">
+                <div className="md:w-2/3 md:ml-12 mt-10 md:mt-0 flex flex-col justify-center text-center ">
                     <h2 className="text-5xl  text-gray-00 mb-4">Omkar Joshi</h2>
                     <h3 className="text-lg ">
                         Founder & Chief Creative Officer – Hybrid&gt; Communications
                     </h3>
                     <p className="text-gray-600 mb-4">________________</p>
-                    <ul className="list-inside text-gray-700 mb-6 space-y-2">
+                    <ul className="list-inside text-gray-700 mb-6 space-y-2 text-start ">
                         <li className='flex items-center gap-2' ><FontAwesomeIcon icon={faCheckCircle} className="h-4 w-4 text-sky-400" />Advertising and Marketing Leader with 10+ Years of experience</li>
                         <li className='flex items-center gap-2'><FontAwesomeIcon icon={faCheckCircle} className="h-4 w-4 text-sky-400" />Ex-Business Head & Executive Creative Director at Schbang</li>
                         <li className='flex items-center gap-2'><FontAwesomeIcon icon={faCheckCircle} className="h-4 w-4 text-sky-400" />Ex-Group Director (Brand Communications) at Gozoop</li>
                         <li className='flex items-center gap-2'><FontAwesomeIcon icon={faCheckCircle} className="h-4 w-4 text-sky-400" />Won 4 Agency-Of-The-Year awards in past 5 years</li>
                         <li className='flex items-center gap-2'><FontAwesomeIcon icon={faCheckCircle} className="h-4 w-4 text-sky-400" />Won 35+ awards for campaigns over the past 5 years</li>
-                        <li className='flex items-center gap-2'><FontAwesomeIcon icon={faCheckCircle} className="h-4 w-4 text-sky-400" />Listed in Agency Reporter <strong>40 Under 40</strong>  (2021)</li>
-                        <li className='flex items-center gap-2'><FontAwesomeIcon icon={faCheckCircle} className="h-4 w-4 text-sky-400" />Named “India’s Top Digital Planner” by BusinessWorld & Dainik Bhaskar</li>
+                        <li className='flex items-center gap-2'><FontAwesomeIcon icon={faCheckCircle} className="h-4 w-4 text-sky-400" />Listed in Agency Reporter 40 Under 40 (2021)</li>
+                        <li className='flex items-center gap-2'><FontAwesomeIcon icon={faCheckCircle} className="h-4 w-4 text-sky-400" />Named “India's Top Digital Planner” by BusinessWorld & Dainik Bhaskar</li>
                     </ul>
                 </div>
             </div>

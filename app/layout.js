@@ -36,10 +36,6 @@ export default function RootLayout({ children }) {
         <CourseBenefits/>
         <Reviews2/>
         <Reasons/>
-        <div className="min-h-screen" >
-        {children}
-        </div>
-
         <Footer/>
       </body>
     </html>

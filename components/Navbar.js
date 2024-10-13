@@ -8,7 +8,7 @@ const Navbar = () => {
             </div>
             <div className='flex justify-between items-center my-5 mx-10'>
             <img src="/images/logo.png" alt="Logo" />
-            <button className='text-white  bg-[#ff206e] py-3 px-6 rounded-xl hover:bg-black '  >ENROLL NOW</button>
+            <button className='text-white  bg-[#ff206e] py-3 px-6 rounded-xl hover:bg-black transition duration-500 '  >ENROLL NOW</button>
             </div>
             </div>
     )

@@ -6,13 +6,13 @@ import 'font-awesome/css/font-awesome.min.css';
 const HeroSection = () => {
     return (
         <div>
-            <div className='flex justify-center flex-col items-center text-center max-w-[60vw] m-auto '>
+            <div className='flex justify-center flex-col items-center text-start md:text-center w-[90vw] lg:max-w-[60vw] m-auto '>
                 <h1 className=' text-gray-700 text-xl ' >N E W &nbsp;&nbsp; L A U N C H</h1>
-                <p className='m-5 text-5xl font-semibold'>
+                <p className='m-5 text-3xl md:text-5xl font-semibold'>
                     Learn how to <span className="gradient-text">Pitch</span> and close high-ticket Social Media Clients from the <span className="gradient-text">Founder of an Award-Winning Agency.</span>
                 </p>
 
-                <p className='text-gray-500 text-lg'>
+                <p className='text-gray-500 md:text-lg'>
                     In this online course, get the <strong>Insider tips & tricks </strong> that have helped Top agency professionals, strategists & freelancers close <strong> high-paying, dream clients </strong>  - even if you have never pitched before.
                 </p>
 
@@ -24,9 +24,9 @@ const HeroSection = () => {
             </div>
 
 
-            <div className='flex gap-10 justify-center m-10' >
-                <div className='border-2 rounded-lg p-5 w-[25vw] flex flex-col justify-center items-center text-center shadow-lg shadow-gray-400 '>
-                    <div className='max-w-[250px]'>
+            <div className='flex flex-col md:max-w-[70vw] my-10 m-auto md:flex-row  justify-center gap-10  ' >
+                <div className=' mx-10 md:mx-0 border-2 rounded-lg p-5 min-w-3/4 md:w-5/12  flex flex-col justify-center items-center text-center shadow-lg shadow-gray-400 '>
+                    <div className=''>
                         <span className="px-8 py-1 bg-gradient-to-r from-[#C81151] to-[#5A54A8] text-white rounded-md">
                             Your Mentor
                         </span>
@@ -41,7 +41,7 @@ const HeroSection = () => {
                     </div>
                 </div>
 
-                <div className='border-2 rounded-lg p-3 w-[30vw] flex flex-col text-center shadow-lg shadow-gray-400 '>
+                <div className='border-2 mx-10 md:mx-0 rounded-lg p-3 md:min-w-1/2  md:w-1/2 flex flex-col text-center shadow-lg shadow-gray-400 '>
                     <div>
                         <img className='object-fit rounded-xl border-2' src="/images/strategy.png" alt="" />
 

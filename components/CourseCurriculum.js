@@ -29,12 +29,12 @@ const CourseCurriculum = () => {
   ];
 
   return (
-    <div className="max-w-[70vw] mx-auto p-6">
+    <div className="max-w-[90vw] lg:max-w-[70vw] mx-auto p-6">
       <h1 className="text-6xl font-semibold text-center gradient-text mb-4">Course Curriculum</h1>
-      <p className="text-center text-lg m-auto mb-8 max-w-[50vw] text-gray-700">
+      <p className="text-center text-lg m-auto mb-8 max-w-[90vw] sm:max-w-[50vw] text-gray-700">
         Learn the exact art & science behind making a <span className="font-bold">winning pitch</span> that will help you <span className="font-bold">beat your competitors</span> and close clients at the <span className="font-bold">price that you decide</span>.
       </p>
-      <div className="grid grid-cols-1 text-2xl text-gray-700 sm:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 text-2xl text-gray-700 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {modules.map((module, index) => (
           <div
             key={index}

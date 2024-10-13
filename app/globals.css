@@ -28,3 +28,6 @@ body{
     transform: translateX(-100%); /* Slide in from the left */
   }
   
+  .slick-slide > div {
+margin: 10px;
+  }

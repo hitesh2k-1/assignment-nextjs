@@ -1,19 +1,22 @@
 "use client";
 import React from 'react';
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const ReviewCard = ({ name, review, rating, reviewsCount }) => (
-  <div className="border border-gray-200 rounded-lg shadow-lg p-4 flex flex-col w-full">
-    <div className="flex items-center mb-2">
+  <div className="border border-gray-200 min-h-96 rounded-lg shadow-lg p-4 flex flex-col w-full">
+    <div className="flex items-start mb-2">
       <div className="bg-gray-200 rounded-full w-10 h-10 flex items-center justify-center mr-3">
         <span className="text-gray-600 text-sm">{name.charAt(0).toUpperCase()}</span>
       </div>
       <div>
-        <h4 className="font-semibold text-gray-800">{name}</h4>
+        <h4 className="font-bold text-xs leading-none text-gray-800">{name}</h4>
         <span className="text-gray-500 text-xs">
           {reviewsCount} review{reviewsCount > 1 ? 's' : ''}
         </span>
         <div>
-          <span className="text-yellow-500">{'⭐'.repeat(rating)}</span>
+          <span className="text-xs text-yellow-500">{'⭐'.repeat(rating)}</span>
         </div>
       </div>
     </div>
@@ -32,8 +35,26 @@ const ReviewsSection = () => {
     {
       name: 'Hemant Mandaliya',
       review: "Riveting! Binge-worthy!! Pitch Perfect!!! I have spent 15 years in the Advertising industry and have pitched to brands of all shape & size and still there was so much to learn and put into practice. Whether it is research, strategy, creativity or working with numbers, Omkar is a wizard and most importantly, it's his presentation skills which leave you wanting for more.",
-      rating: 5,
+      rating: 4,
       reviewsCount: 10,
+    },
+    {
+      name: 'John Doe',
+      review: 'An amazing learning experience! Highly recommend to anyone looking to grow. Binge-worthy!! Pitch Perfect!!! I have spent 15 years in the Advertising industry and have pitched to brands of all shape & size.',
+      rating: 5,
+      reviewsCount: 3,
+    },
+    {
+      name: 'John Doe',
+      review: 'An amazing learning experience! Highly recommend to anyone looking to grow. Binge-worthy!! Pitch Perfect!!! I have spent 15 years in the Advertising industry and have pitched to brands of all shape & size.',
+      rating: 5,
+      reviewsCount: 3,
+    },
+    {
+      name: 'John Doe',
+      review: 'An amazing learning experience! Highly recommend to anyone looking to grow. Binge-worthy!! Pitch Perfect!!! I have spent 15 years in the Advertising industry and have pitched to brands of all shape & size.',
+      rating: 5,
+      reviewsCount: 3,
     },
     {
       name: 'John Doe',
@@ -43,26 +64,46 @@ const ReviewsSection = () => {
     },
   ];
 
+
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          initialSlide: 1
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  };
   return (
-    <div className="container mx-auto my-20 px-4 max-w-[80vw]">
+    <div className="container mx-auto my-20 px-4 w-[90vw] lg:max-w-[70vw]">
       <h2 className="sm:text-5xl text-3xl font-semibold text-center mt-20 mb-12">
         What our learners say 😊 →
       </h2>
 
       {/* Review Navigation */}
-      <div className="flex justify-center items-center mb-4">
-        <button className="text-3xl p-2 text-gray-700 hover:text-gray-900" onClick={() => { /* Add functionality later */ }}>
-          {"<"}
-        </button>
-        <div className="flex flex-col md:flex-row gap-5 items-center max-w-[70vw] m-auto space-y-4">
-          {reviews.map((review, index) => (
-            <ReviewCard key={index} {...review} />
-          ))}
-        </div>
-        <button className="text-3xl p-2 text-gray-700 hover:text-gray-900" onClick={() => { /* Add functionality later */ }}>
-          {">"}
-        </button>
-      </div>
+      <Slider {...settings}>
+        {reviews.map((review, index) => (
+          <div key={index} className="flex justify-center items-center mb-4">
+            <ReviewCard {...review} />
+          </div>
+        ))}
+      </Slider>
     </div>
   );
 };

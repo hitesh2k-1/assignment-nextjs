@@ -8,11 +8,11 @@ const HeroSection = () => {
         <div>
             <div className='flex justify-center flex-col items-center text-start md:text-center w-[90vw] lg:max-w-[60vw] m-auto '>
                 <h1 className=' text-gray-700 text-xl ' >N E W &nbsp;&nbsp; L A U N C H</h1>
-                <p className='m-5 text-3xl md:text-5xl font-semibold'>
+                <p className='m-5 text-3xl md:text-5xl font-bold md:font-semibold'>
                     Learn how to <span className="gradient-text">Pitch</span> and close high-ticket Social Media Clients from the <span className="gradient-text">Founder of an Award-Winning Agency.</span>
                 </p>
 
-                <p className='text-gray-500 md:text-lg'>
+                <p className='text-gray-500 md:text-lg max-w-[80vw] '>
                     In this online course, get the <strong>Insider tips & tricks </strong> that have helped Top agency professionals, strategists & freelancers close <strong> high-paying, dream clients </strong>  - even if you have never pitched before.
                 </p>
 

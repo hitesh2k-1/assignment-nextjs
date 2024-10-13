@@ -11,7 +11,7 @@ const Reasons = () => {
         <div>
             <div className="flex justify-center px-4 mt-40 ">
                 <div className=" max-w-[90vw] lg:w-3/5">
-                    <h2 className="text-5xl  text-center text-gray-700 font-semibold mb-6 my-15">This course is for you if:</h2>
+                    <h2 className="sm:text-5xl text-3xl  text-center text-gray-700 font-semibold mb-6 my-15">This course is for you if:</h2>
                     <ul className="space-y-3 ">
                         {[
                             "You want to learn the exact art & science behind making a Winning Pitch",
@@ -34,7 +34,7 @@ const Reasons = () => {
 
             <div className="flex justify-center px-4 mt-40 ">
                 <div className=" max-w-[90vw] lg:w-3/5">
-                    <h2 className="text-5xl  text-center text-gray-700 font-bold mb-6 my-15">Frequently Asked Questions</h2>
+                    <h2 className="sm:text-5xl text-3xl text-center text-gray-700 font-bold mb-6 my-15">Frequently Asked Questions</h2>
                     <ul className="space-y-3 text-lg font-semibold  ">
                         {[
                             "Is this a recorded course?",
@@ -56,8 +56,8 @@ const Reasons = () => {
                 </div>
             </div>
             <div className="text-center mt-8">
-                <button className="flex items-center text-xl gap-2 m-auto bg-gradient-to-r from-[#C81151] to-[#5A54A8] text-white px-6 py-3 rounded-lg shadow transition-transform transform hover:-translate-y-1 duration-300">
-                    <FontAwesomeIcon icon={faCheckCircle} className="h-4 w-4 text-white" />
+                <button className="relative inline-block text-lg sm:text-xl gap-2 m-auto bg-gradient-to-r from-[#C81151] to-[#5A54A8] text-white px-10 py-3 rounded-lg shadow transition-transform transform hover:-translate-y-1 duration-300">
+                    <FontAwesomeIcon icon={faCheckCircle} className="h-5 w-5 absolute top-4 left-3  text-white" />
                     GET INSTANT ACCESS AT JUST ₹999 <span className="line-through text-xs text-gray-300">₹3999</span>
                 </button>
 

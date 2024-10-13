@@ -45,7 +45,7 @@ const Reviews2 = () => {
 
   return (
     <div className="container mx-auto my-20 px-4 max-w-[80vw]">
-      <h2 className="text-5xl font-semibold text-center mt-20 mb-12">
+      <h2 className=" text-3xl sm:text-5xl font-semibold text-center mt-20 mb-12">
       Hear what other learners have to say about this course 😊 →
       </h2>
 

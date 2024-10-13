@@ -13,11 +13,11 @@ const beneficiaries = [
 
 const CourseSection = () => {
   return (
-    <div className="container mx-auto mt-52 mb-28 text-start max-w-[70vw]">
-      <h2 className="text-5xl font-semibold mb-10">
+    <div className="container mx-auto mt-52 mb-28 text-center max-w-[70vw]">
+      <h2 className="sm:text-5xl text-3xl font-semibold mb-10">
         Who will <span className="gradient-text">benefit</span> from this course
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 text-start md:grid-cols-2 gap-6">
         {beneficiaries.map((benefit, index) => (
           <div
             key={index}

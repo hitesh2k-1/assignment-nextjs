@@ -7,10 +7,10 @@ import { faCheckCircle } from '@fortawesome/free-regular-svg-icons';
 const BonusSection = () => {
     return (
         <div className="lg:max-w-[70vw] md:max-w-[90vw] mx-auto p-6 my-10 ">
-            <h2 className="text-center max-w-[60vw] m-auto gradient-text text-5xl font-semibold mb-2">
+            <h2 className="text-center max-w-[60vw] m-auto gradient-text text-3xl sm:text-5xl font-semibold mb-2">
                 Enroll today & Get Premium Bonuses worth ₹20,000
             </h2>
-            <p className="text-center text-lg text-gray-700 my-8 mb-28">
+            <p className="text-center sm:text-lg text-gray-700 my-8 mb-28">
                 Supercharge your Pitches <span className="font-bold">Immediately</span> with these Done-For-You Bonuses
             </p>
 
@@ -20,7 +20,7 @@ const BonusSection = () => {
                     <div class="relative h-52 mb-4  -mt-28">
                         <Image height={200} width={200} src="/images/book.png" alt="" class="object-cover h-52  " />
                     </div>
-                    <h3 class="text-4xl font-semibold mb-2 text-gray-700">Agency Pricing Guide (E-Book)</h3>
+                    <h3 class=" text-3xl sm:text-4xl font-semibold mb-2 text-gray-700">Agency Pricing Guide (E-Book)</h3>
                     <p class="text-gray-600 mb-2">
                         Learn the best practice of pricing your services no matter what the size of your agency (or freelancing business).
                     </p>
@@ -34,7 +34,7 @@ const BonusSection = () => {
                     <div class="relative h-52 mb-4  -mt-28">
                         <Image height={200} width={200} src="/images/calculator.png" alt="" class="object-cover h-52  " />
                     </div>
-                    <h3 class="text-4xl font-semibold mb-2 text-gray-700">Retainer Calculator</h3>
+                    <h3 class=" text-3xl sm:text-4xl font-semibold mb-2 text-gray-700">Retainer Calculator</h3>
                     <p class="text-gray-600 mb-2">
                         Remove the guesswork and get this ready-to-use calculator to determine how much you should charge your clients. Get calculations based on your resource allocation and margins.                    </p>
                     <span class="font-bold text-xl gradient-text">WORTH ₹5,000</span>
@@ -51,8 +51,8 @@ const BonusSection = () => {
             </div>
 
             <div className="text-center mt-8">
-                <button className="flex items-center text-xl gap-2 m-auto bg-gradient-to-r from-[#C81151] to-[#5A54A8] text-white px-6 py-3 rounded-lg shadow transition-transform transform hover:-translate-y-1 duration-300">
-                    <FontAwesomeIcon icon={faCheckCircle} className="h-4 w-4 text-white" />
+                <button className="relative inline-block text-lg sm:text-xl gap-2 m-auto bg-gradient-to-r from-[#C81151] to-[#5A54A8] text-white px-10 py-3 rounded-lg shadow transition-transform transform hover:-translate-y-1 duration-300">
+                    <FontAwesomeIcon icon={faCheckCircle} className="h-5 w-5 absolute top-4 left-3  text-white" />
                     GET INSTANT ACCESS AT JUST ₹999 <span className="line-through text-xs text-gray-300">₹3999</span>
                 </button>
 

@@ -8,7 +8,7 @@ const WhyJoinCourse = () => {
   return (
     <div>
     <div className="bg-gradient-to-r from-[#5A54A8] to-[#C81151] text-white py-12 px-6 lg:h-[70vh]">
-      <h2 className="text-5xl font-semibold text-center my-16">Why join this course? 🚀</h2>
+      <h2 className="sm:text-5xl text-3xl font-semibold text-center my-16">Why join this course? 🚀</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w[90vw] md:max-w-[70vw] m-auto ">
         {/* Card 1 */}
         <div className="flex items-center space-x-4 px-6 lg:max-w-[30vw] rounded-2xl py-4 border-2 bg-white text-gray-700 ">
@@ -75,7 +75,7 @@ const WhyJoinCourse = () => {
     </div>
 
     <div className="py-16 max-w-[90vw] lg:max-w-[45vw] m-auto  bg-gray-50 flex justify-center flex-col ">
-      <h2 className="text-5xl font-semibold text-center text-gray-700 mb-12">Our learners work here:</h2>
+      <h2 className="sm:text-5xl text-3xl font-semibold text-center text-gray-700 mb-12">Our learners work here:</h2>
       <Image width={800} height={800} className='border-2 rounded-3xl'  src="/images/multiplelogo.png" alt="" />
       </div>
     </div>

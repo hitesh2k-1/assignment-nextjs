@@ -13,13 +13,13 @@ const HeroSection = () => {
                     Learn how to <span className="gradient-text">Pitch</span> and close high-ticket Social Media Clients from the <span className="gradient-text">Founder of an Award-Winning Agency.</span>
                 </p>
 
-                <p className='text-gray-500 md:text-lg max-w-[80vw] '>
+                <p className='text-gray-500 text-sm md:text-lg max-w-[80vw] '>
                     In this online courses get the <strong>Insider tips & tricks </strong> that have helped Top agency professionals, strategists & freelancers close <strong> high-paying, dream clients </strong>  - even if you have never pitched before.
                 </p>
 
-                <button className=' mt-5 mb-1 font-semibold text-white bg-[#ff206e] py-3 px-6 rounded-xl flex items-center hover:invert hover:bg-black hover:border-white hover:border transition-all duration-500 ease-in-out  '>
-                    <Image width={20} height={20} src="/images/circel.svg" alt="" /> &nbsp;
-                    GET INSTANT ACCESS AT JUST ₹999&nbsp; <span className='text-xs line-through'>3000</span>
+                <button className=' relative mt-5 inline-block mb-1 font-semibold text-white bg-[#ff206e] py-3 px-6 rounded-xl  hover:invert hover:bg-black hover:border-white hover:border transition-all duration-500 ease-in-out  '>
+                    <Image className='absolute left-2 top-3.5' width={20} height={20} src="/images/circel.svg" alt="" /> &nbsp;
+                    GET INSTANT ACCESS AT JUST ₹999&nbsp; <span className='text-xs line-through'>3999</span>
                 </button>
                 <p className='text-gray-500'>GST applicable.</p>
             </div>

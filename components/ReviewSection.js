@@ -45,7 +45,7 @@ const ReviewsSection = () => {
 
   return (
     <div className="container mx-auto my-20 px-4 max-w-[80vw]">
-      <h2 className="text-5xl font-semibold text-center mt-20 mb-12">
+      <h2 className="sm:text-5xl text-3xl font-semibold text-center mt-20 mb-12">
         What our learners say 😊 →
       </h2>
 

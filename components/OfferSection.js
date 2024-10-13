@@ -48,21 +48,22 @@ const OfferSection = () => {
 
                 {/* Right Column: Offer Details */}
                 <div className="bg-white p-8 shadow-2xl shadow-pink-200 rounded-md text-center">
-                    <h2 className="text-4xl font-semibold mb-4">How to Pitch & Close High-Ticket Social Media Clients: On-Demand Course</h2>
-                    <p className="text-2xl text-gray-700 mb-4">(Get 75% off)</p>
+                    <h2 className="sm:text-4xl text-3xl font-semibold mb-4">How to Pitch & Close High-Ticket Social Media Clients: On-Demand Course</h2>
+                    <p className="sm:text-2xl text-xl text-gray-700 mb-4">(Get 75% off)</p>
 
                     {/* Image of the Course */}
                     <span className="border-2 w-[250px] sm:w-[320px] m-auto rounded-2xl border-gray-200 flex justify-center">
                         <Image height={300} width={300} src="/images/laptop.png" alt="" />
                     </span>
                     {/* Pricing */}
-                    <p className="text-7xl font-bold gradient-text mb-2">₹999 <span className="line- text-lg ">₹3999</span></p>
+                    <p className="sm:text-7xl text-4xl font-bold gradient-text mb-2">₹999 <span className='line-through text-lg'>₹3999</span> </p>
                     <p className="text-gray-500 text-sm mb-6">GST applicable</p>
 
                     {/* Button */}
-                    <button className="flex items-center text-xl gap-2 m-auto bg-gradient-to-r from-[#C81151] to-[#5A54A8] text-white px-6 py-3 rounded-lg shadow transition-transform transform hover:-translate-y-1 duration-300">
-                        <FontAwesomeIcon icon={faCheckCircle} className="h-4 w-4 text-white" />
-                        GET INSTANT ACCESS </button>
+                    <button className="relative inline-block text-lg sm:text-xl gap-2 m-auto bg-gradient-to-r from-[#C81151] to-[#5A54A8] text-white px-10 py-3 rounded-lg shadow transition-transform transform hover:-translate-y-1 duration-300">
+                    <FontAwesomeIcon icon={faCheckCircle} className="h-5 w-5 absolute top-4 left-3  text-white" />
+                    GET INSTANT ACCESS
+                </button>
                     <div className='border w-96 my-3 m-auto border-pink-100' ></div>
                     {/* Bonuses and Info */}
                     <div className="mt-6 mx-10 flex flex-col justify-center  gap-4 ">

@@ -2,11 +2,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-1st. Install node modules : npm install
+# NextJS Frontend
 
-2st. install required icons : npm install @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/free-regular-svg-icons @fortawesome/free-brands-svg-icons @fortawesome/react-fontawesome
-
-3rd. run the development server: npm run dev
+# npm install font-awesome
+# npm install @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/free-regular-svg-icons @fortawesome/free-brands-svg-icons @fortawesome/react-fontawesome
+# npm install react-slick slick-carousel
+# npm run dev
 
 
 

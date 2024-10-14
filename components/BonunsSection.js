@@ -16,28 +16,28 @@ const BonusSection = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {/* Card 1 */}
-                <div class="relative p-6 bg-white border-purple-200 transition duration-500 hover:border-red-500 border-dashed border-2 rounded-2xl shadow-md flex flex-col items-center text-start">
-                    <div class="relative h-52 mb-4  -mt-28">
-                        <Image height={200} width={200} src="/images/book.png" alt="" class="object-cover h-52  " />
+                <div className="relative p-6 bg-white border-purple-200 transition duration-500 hover:border-red-500 border-dashed border-2 rounded-2xl shadow-md flex flex-col items-center text-start">
+                    <div className="relative h-52 mb-4  -mt-28">
+                        <Image height={200} width={200} src="/images/book.png" alt="" className="object-cover h-52  " />
                     </div>
-                    <h3 class=" text-3xl sm:text-4xl font-semibold mb-2 text-gray-700">Agency Pricing Guide (E-Book)</h3>
-                    <p class="text-gray-600 mb-2">
+                    <h3 className=" text-3xl sm:text-4xl font-semibold mb-2 text-gray-700">Agency Pricing Guide (E-Book)</h3>
+                    <p className="text-gray-600 mb-2">
                         Learn the best practice of pricing your services no matter what the size of your agency (or freelancing business).
                     </p>
-                    <span class="font-bold text-xl gradient-text">WORTH ₹5,000</span>
+                    <span className="font-bold text-xl gradient-text">WORTH ₹5,000</span>
                 </div>
 
 
 
                 {/* Card 2 */}
-                <div class="relative p-6 mt-20 md:mt-0 bg-white border-purple-200 transition duration-500 hover:border-red-500 border-dashed border-2 rounded-2xl shadow-md flex flex-col items-center text-start">
-                    <div class="relative h-52 mb-4  -mt-28">
-                        <Image height={200} width={200} src="/images/calculator.png" alt="" class="object-cover h-52  " />
+                <div className="relative p-6 mt-20 md:mt-0 bg-white border-purple-200 transition duration-500 hover:border-red-500 border-dashed border-2 rounded-2xl shadow-md flex flex-col items-center text-start">
+                    <div className="relative h-52 mb-4  -mt-28">
+                        <Image height={200} width={200} src="/images/calculator.png" alt="" className="object-cover h-52  " />
                     </div>
-                    <h3 class=" text-3xl sm:text-4xl font-semibold mb-2 text-gray-700">Retainer Calculator</h3>
-                    <p class="text-gray-600 mb-2">
+                    <h3 className=" text-3xl sm:text-4xl font-semibold mb-2 text-gray-700">Retainer Calculator</h3>
+                    <p className="text-gray-600 mb-2">
                         Remove the guesswork and get this ready-to-use calculator to determine how much you should charge your clients. Get calculations based on your resource allocation and margins.                    </p>
-                    <span class="font-bold text-xl gradient-text">WORTH ₹5,000</span>
+                    <span className="font-bold text-xl gradient-text">WORTH ₹5,000</span>
                 </div>
 
                 {/* Card 3 */}
